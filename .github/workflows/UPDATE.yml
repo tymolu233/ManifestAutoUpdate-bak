@@ -33,8 +33,8 @@ on:
         required: false
     branches:
       - main
-  schedule:
-    - cron: '0 */1 * * *'
+  #schedule:
+    #- cron: '0 */1 * * *'
 concurrency:
   group: wait
   cancel-in-progress: false
